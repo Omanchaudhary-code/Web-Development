@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+    width: 100vw;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+
+header .navbar{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 100%;
+}
+
+header .navbar .logo , .right-menu{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .navbar .center-menu .list{
+
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: center;
+
+}
+header .navbar .center-menu .list li{
+
+    list-style: none;
+
+}
+header .navbar .center-menu .list li a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+
+}
+header .navbar .center-menu .list li a:hover{
+
+    text-shadow: 1px 0px 8px blue ;
+
+}
+
+header .navbar .right-menu .g-in-touch-btn{
+
+    padding:10px 12px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid lightblue;
+    box-shadow: 1px 0px 8px blue;
+}
+header .navbar .right-menu .g-in-touch-btn:hover{
+
+    padding:10px 12px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid lightblue;
+    box-shadow: 1px 0px 8px blue;
+    cursor: pointer;
+
+}
